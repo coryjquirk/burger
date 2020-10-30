@@ -1,0 +1,41 @@
+{{!-- setup the index.handlebars to have the template that Handlebars can render onto --}}
+<h1>EatDa Borgus</h1>
+
+<h2>Watchu want?</h2>
+<form class="create-form">
+
+    <label for="newBurg">Burger name:</label>
+        <input type="text" id="newBurg" name="newBurg">
+    <button type="submit" id="burgBtn">Add Burger</button>
+
+</form>
+
+<h2>Burgers to eat</h2>
+
+<ul>
+
+  <li>gotta eat these ones</li>
+  {{#each burgers}}
+    {{#unless devoured}}
+        {{burger_name}}
+            <button class="devoured" data-id="{{devoured}}">eat</button>
+    {{/unless}}
+    <br>
+  {{/each}}
+
+</ul>
+
+<h2>Burgers devoured</h2>
+
+<ul>
+  <li>yea i ate these</li>
+  {{#each burgers}}
+    <br>
+    {{#if devoured}}
+        {{burger_name}}
+        <br>
+    {{/if}}
+  {{/each}}
+
+</ul>
+
