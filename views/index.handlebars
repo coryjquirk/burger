@@ -1,41 +1,49 @@
 {{!-- setup the index.handlebars to have the template that Handlebars can render onto --}}
-<h1>EatDa Borgus</h1>
+<div class="container">
+    
+    <h1 class="titleText">eat Borgus</h1>
 
-<h2>Watchu want?</h2>
-<form class="create-form">
+  <h2 class="miniHeading">whatchu want?</h2>
+  <div class="area">
+    <form class="create-form">
 
-    <label for="newburger">Burger name:</label>
-        <input type="text" id="newburger">
-    <button type="submit" id="newburger">Add Burger</button>
+        <label for="newburger">Burger name:</label>
+            <input type="text" id="newburger">
+        <button type="submit" id="newburger">Add Burger</button>
 
-</form>
+    </form>
+  </div>
 
-<h2>Burgers to eat</h2>
+  <h2 class="miniHeading">dream burgers</h2>
+  <div class="area">
+    <ul>
 
-<ul>
-
-  <li>gotta eat these ones</li>
-  {{#each burgers}}
-    {{#unless devoured}}
-        {{burger_name}}
-            <button class="devour" data-id="{{id}}" data-devour="{{devoured}}">devour!</button>
-    {{/unless}}
-    <br>
-  {{/each}}
-
-</ul>
-
-<h2>Burgers devoured</h2>
-
-<ul>
-  <li>yea i ate these</li>
-  {{#each burgers}}
-    <br>
-    {{#if devoured}}
-        {{burger_name}}
+      <h3>still gotta eat these ones</h3>
+      {{#each burgers}}
+        {{#unless devoured}}
+            <p class="borgus">>{{burger_name}}
+                <button class="devour" data-id="{{id}}" data-devour="{{devoured}}">devour!</button>
+        {{/unless}}
         <br>
-    {{/if}}
-  {{/each}}
+      {{/each}}</p>
 
-</ul>
+    </ul>
+
+    <h2 class="miniHeading">Burgers devoured</h2>
+    
+    <h3>yea i ate these already</h3>
+
+    <ul>
+      {{#each burgers}}
+        <br>
+        <p class="borgus">{{#if devoured}}
+            >{{burger_name}}
+            </p>
+            <br>
+        {{/if}}
+      {{/each}}
+
+    </ul>
+  </div>
+</div>
 

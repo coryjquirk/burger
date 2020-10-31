@@ -9,25 +9,25 @@ body {
 .miniHeading {
     color: black;
     text-align: center;
-    font-size: 38px;
-    letter-spacing: 1.5px;
+    font-size: 24px;
+    letter-spacing: 1px;
     font-weight: bold;
 }
-.moveMe {
+.area {
     text-align: center;
-    margin: 0 auto 3% 0;
-}
-.showBurger {
-    text-align: center;
-    font-size: 28px;
-}
-.devourBurger {
-    text-align: center;
-    font-size: 28px;
+    font-size: 16px;
 }
 .btn {
     padding-top: 0px;
 }
 p {
     color: black;
+}
+.borgus{
+    background-color: aquamarine;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
