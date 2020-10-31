@@ -5,6 +5,7 @@
 * GitHub Repository: https://github.com/coryjquirk/burger
 
 ### Screenshot
+<img src="https://coryjquirk.github.io/burger/public/assets/img/screenshot.PNG" alt="application screenshot">
 
 ## Design Features
 * ORM file structure
