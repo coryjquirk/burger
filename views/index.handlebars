@@ -4,9 +4,9 @@
 <h2>Watchu want?</h2>
 <form class="create-form">
 
-    <label for="newBurg">Burger name:</label>
-        <input type="text" id="newBurg" name="newBurg">
-    <button type="submit" id="burgBtn">Add Burger</button>
+    <label for="newburger">Burger name:</label>
+        <input type="text" id="newburger">
+    <button type="submit" id="newburger">Add Burger</button>
 
 </form>
 
@@ -18,7 +18,7 @@
   {{#each burgers}}
     {{#unless devoured}}
         {{burger_name}}
-            <button class="devoured" data-id="{{devoured}}">eat</button>
+            <button class="devour" data-id="{{id}}" data-devour="{{devoured}}">devour!</button>
     {{/unless}}
     <br>
   {{/each}}

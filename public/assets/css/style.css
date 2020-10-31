@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+}
+.titleText {
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+.miniHeading {
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.moveMe {
+    text-align: center;
+    margin: 0 auto 3% 0;
+}
+.showBurger {
+    text-align: center;
+    font-size: 28px;
+}
+.devourBurger {
+    text-align: center;
+    font-size: 28px;
+}
+.btn {
+    padding-top: 0px;
+}
+p {
+    color: black;
+}
