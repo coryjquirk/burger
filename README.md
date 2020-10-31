@@ -4,16 +4,17 @@
 * Deployed app on Heroku: https://cryptic-woodland-16959.herokuapp.com/
 * GitHub Repository: https://github.com/coryjquirk/burger
 
-## Features
+### Screenshot
+
+## Design Features
 * ORM file structure
 * Server side database routing
-* Burgers MySQL database is hosted remotely
+* Burgers MySQL database is hosted remotely through JawsDB
+* Front end generated through Express Handlebars
 
 ## Usage
 * Submit to me your dream burger and irreversibly consume it. Obviously.
-
-## In Development
-* Front end application is a WIP
+* Category: just for fun.
 
 ## Tools Used
 * MySQL
