@@ -24,7 +24,6 @@
             <p class="borgus">>{{burger_name}}
                 <button class="devour" data-id="{{id}}" data-devour="{{devoured}}">devour!</button>
         {{/unless}}
-        <br>
       {{/each}}</p>
 
     </ul>
@@ -35,12 +34,11 @@
 
     <ul>
       {{#each burgers}}
-        <br>
         {{#if devoured}}
             <p class="borgus">>{{burger_name}}
             </p>
-            <br>
         {{/if}}
+        <br>
       {{/each}}
 
     </ul>
