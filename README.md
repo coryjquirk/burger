@@ -1,8 +1,9 @@
 # burgus tyme
+silly full stack application using MySQL, Express, Node.js, and jQuery + Handlebars.js for the front end.
 
 ## Links
-* Deployed app on Heroku: https://cryptic-woodland-16959.herokuapp.com/
-* GitHub Repository: https://github.com/coryjquirk/burger
+* [Deployed app on Heroku](https://cryptic-woodland-16959.herokuapp.com/) (free server, takes a minute to start): 
+* [Repository](https://github.com/coryjquirk/burger) 
 
 ### Screenshot
 <img src="https://coryjquirk.github.io/burger/public/assets/img/screenshot.PNG" alt="application screenshot">
