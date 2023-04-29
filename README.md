@@ -2,7 +2,6 @@
 silly full stack application using MySQL, Express, Node.js, and jQuery + Handlebars.js for the front end.
 
 ## Links
-* [Deployed app on Heroku](https://cryptic-woodland-16959.herokuapp.com/) (free server, takes a minute to start): 
 * [Repository](https://github.com/coryjquirk/burger) 
 
 ### Screenshot
